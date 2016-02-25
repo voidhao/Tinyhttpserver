@@ -56,7 +56,7 @@ static int ini_read(FILE *fp, ini_t *config) {
         if (newline != NULL) {
             *newline = '\0';
         }
-        printf("line: %s\n", line);
+        //printf("line: %s\n", line);
 
         begin = strchr(line, '[');
         if (begin != NULL) {
